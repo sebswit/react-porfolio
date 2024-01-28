@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Learn from './Learn';
+
 
 
 function Contact() {
@@ -10,10 +10,7 @@ function Contact() {
       <p>
         This is the contact page.
       </p>
-      <Link to="/contact/learn">Learn</Link>
-      <Routes>
-        <Route path="/contact/learn" element={<Learn />} />
-      </Routes>
+      
     </div>
   );
 }
