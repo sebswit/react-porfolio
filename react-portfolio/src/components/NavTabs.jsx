@@ -17,19 +17,19 @@ function NavTabs() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                        <a href="#intro" className="nav-link smoothScroll">Introduction</a>
+                        <a href="home" className="nav-link smoothScroll">Home</a>
                     </li>
 
                     <li className="nav-item">
-                        <a href="#about" className="nav-link smoothScroll">About Me</a>
+                        <a href="about" className="nav-link smoothScroll">About Me</a>
                     </li>
 
                     <li className="nav-item">
-                        <a href="#testimonials" className="nav-link smoothScroll">Reviews</a>
+                        <a href="projectgallery" className="nav-link smoothScroll">Project Gallery</a>
                     </li>
 
                     <li className="nav-item">
-                        <a href="#contact" className="nav-link smoothScroll">Contact</a>
+                        <a href="contact" className="nav-link smoothScroll">Contact</a>
                     </li>
                 </ul>
 

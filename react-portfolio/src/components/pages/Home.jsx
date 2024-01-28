@@ -1,4 +1,5 @@
 import React from 'react';
+import picture from '../images/ben.jpg';
 
 
 
@@ -10,7 +11,7 @@ function Home() {
        <div className="row">
 
              <div className="mx-auto col-lg-5 col-md-5 col-10">
-                 <img src="images/ben.jpg" className="img-fluid" alt="Ben Resume HTML Template"/>
+                 <img src={picture} className="img-fluid" alt="Ben Resume HTML Template"/>
              </div>
 
               <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
