@@ -4,21 +4,21 @@ import React from 'react';
 
 function Home() {
   return (
-    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+    <section className="hero d-flex flex-column justify-content-center align-items-center" id="intro">
 
-    <div class="container">
-       <div class="row">
+    <div className="container">
+       <div className="row">
 
-             <div class="mx-auto col-lg-5 col-md-5 col-10">
-                 <img src="images/ben.jpg" class="img-fluid" alt="Ben Resume HTML Template"/>
+             <div className="mx-auto col-lg-5 col-md-5 col-10">
+                 <img src="images/ben.jpg" className="img-fluid" alt="Ben Resume HTML Template"/>
              </div>
 
-              <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                   <div class="hero-text">
+              <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                   <div className="hero-text">
 
-                       <h1 class="hero-title">👋 Ben, a digital nomad</h1>
+                       <h1 className="hero-title">👋 Ben, a digital nomad</h1>
 
-                       <a href="#" class="email-link">
+                       <a href="#" className="email-link">
                            hello@company.co
                        </a>
                      
