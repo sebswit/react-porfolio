@@ -17,10 +17,10 @@ function Home() {
               <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                    <div className="hero-text">
 
-                       <h1 className="hero-title">👋 Ben, a digital nomad</h1>
+                       <h1 className="hero-title">👋 Seb, a digital nomad</h1>
 
                        <a href="#" className="email-link">
-                           hello@company.co
+                           sebastian.switakowski@gmail.com
                        </a>
                      
                    </div>
