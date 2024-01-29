@@ -44,7 +44,7 @@ function Contact() {
 
               <p>
                   <a href="#">
-                      hello@company.co
+                      sebastian.switakowski@gmail.com
                   <i class="fas fa-arrow-right custom-icon"></i>
                   </a>
               </p>
@@ -53,7 +53,7 @@ function Contact() {
               
                   <li><a href="#" rel="noopener" className="fab fa-instagram"></a></li>
                   <li><a href="#" rel="noopener" className="fa-brands fa-linkedin"></a></li>
-                  <li><a href="#" rel="noopener" className=""></a></li>
+                  <li><a href="#" rel="noopener" className="fa-brands fa-github"></a></li>
               </ul>
                        
               

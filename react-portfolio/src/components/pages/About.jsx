@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Seb from '../images/seb.jpg';
+
 import '../styles/About.css';
 import Agency from '../images/true-agency.jpg';
 
@@ -14,7 +14,7 @@ function About() {
                      <div className="col-md-12">
                         <div className="titlepage">
                            <h2>About</h2>
-                           <p> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  sit amet, consectetur adipiscing elit, sed do </p>
+                           <p> Hello there! 👋 I'm Seb, a motivated and detail-oriented junior front-end developer with a deep passion for crafting seamless, user-centric web experiences. My journey in the world of coding began with a curiosity to understand how websites come to life, and since then, I've been on a continuous learning adventure.</p>
                         </div>
                      </div>
                      <div className="col-md-12">

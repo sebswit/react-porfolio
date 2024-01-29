@@ -80,7 +80,8 @@ function ProjectGallery() {
          </div>
        </div>
      </div>
-     </div>
+
+    </div>
  </section>
   );
 }
