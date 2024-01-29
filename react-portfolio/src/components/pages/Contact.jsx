@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons';
-
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '../styles/Contact.css';
 
 
@@ -43,17 +45,16 @@ function Contact() {
               <p className="mb-1">010-020-0340</p>
 
               <p>
-                  <a href="#">
-                      sebastian.switakowski@gmail.com
-                  <i class="fas fa-arrow-right custom-icon"></i>
-                  </a>
+              <a href="#">
+              sebastian.switakowski@gmail.com
+              <FontAwesomeIcon icon={faArrowRight} className="custom-icon" />
+            </a>
               </p>
 
-              <ul className="social-links mt-2">                  
-              
-                  <li><a href="#" rel="noopener" className="fab fa-instagram"></a></li>
-                  <li><a href="#" rel="noopener" className="fa-brands fa-linkedin"></a></li>
-                  <li><a href="#" rel="noopener" className="fa-brands fa-github"></a></li>
+              <ul className="social-links mt-2">
+                <li><a href="#" rel="noopener" className="fab fa-instagram"><FontAwesomeIcon icon={faInstagram} /></a>Instagram</li>
+                <li><a href="https://www.linkedin.com/in/sebastian-switakowski-670b472b0" rel="noopener" className="fa-brands fa-linkedin"><FontAwesomeIcon icon={faLinkedin} /></a>LinkedIn</li>
+                <li><a href="#" rel="noopener" className="fa-brands fa-github"><FontAwesomeIcon icon={faGithub} /></a>Github</li>
               </ul>
                        
               
