@@ -1,6 +1,6 @@
 .about_img{
-    width: 520px;
-    height: 500px;
+    width: 28vw;
+    height: 56vh;
     border:1px solid #080000;
     border-radius: 5px;
     padding: 10px;
@@ -11,7 +11,7 @@
     
 }
 .titlepage{
-    width: 520px;
+    width: 28vw;
     margin: 10px;
     border: 1px solid #080000;
     border-radius: 5px;
@@ -26,8 +26,8 @@
     box-shadow: 10px 10px 5px #888888;
 }
 .about_right{
-    height:720px;
-    width: 520px;
+    height:80vh;
+    width: 50vw;
     padding: 10px;
     margin: 10px;
     border: 1px solid #080000;

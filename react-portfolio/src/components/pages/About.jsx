@@ -2,8 +2,8 @@ import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 
 import '../styles/About.css';
-import Agency from '../images/true-agency.jpg';
-import Right from '../images/right.jpg';
+import Coding from '../images/011.png';
+import Code from '../images/code.png';
 
 function About() {
   return (
@@ -19,12 +19,12 @@ function About() {
                         </div>
                      </div>
                      <div className="col-md-12">                        
-                           <img src={Agency} className="about_img"alt="#"/>
+                           <img src={Code} className="about_img"alt="#"/>
                      </div>
                   </div>
                </div>
                <div className="col-md-7">                  
-                     <img src={Right} className="about_right" alt="#"/>
+                     <img src={Coding} className="about_right" alt="#"/>
                </div>
             </div>
          </div>
