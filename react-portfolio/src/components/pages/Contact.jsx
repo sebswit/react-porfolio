@@ -54,7 +54,7 @@ function Contact() {
               <ul className="social-links mt-2">
                 <li><a href="#" rel="noopener" className="fab fa-instagram"><FontAwesomeIcon icon={faInstagram} /></a>Instagram</li>
                 <li><a href="https://www.linkedin.com/in/sebastian-switakowski-670b472b0" rel="noopener" className="fa-brands fa-linkedin"><FontAwesomeIcon icon={faLinkedin} /></a>LinkedIn</li>
-                <li><a href="#" rel="noopener" className="fa-brands fa-github"><FontAwesomeIcon icon={faGithub} /></a>Github</li>
+                <li><a href="https://github.com/sebswit?tab=repositories" rel="noopener" className="fa-brands fa-github"><FontAwesomeIcon icon={faGithub} /></a>Github</li>
               </ul>
                        
               

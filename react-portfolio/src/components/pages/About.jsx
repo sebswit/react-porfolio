@@ -3,6 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 
 import '../styles/About.css';
 import Agency from '../images/true-agency.jpg';
+import Right from '../images/right.jpg';
 
 function About() {
   return (
@@ -17,17 +18,13 @@ function About() {
                            <p> Hello there! 👋 I'm Seb, a motivated and detail-oriented junior front-end developer with a deep passion for crafting seamless, user-centric web experiences. My journey in the world of coding began with a curiosity to understand how websites come to life, and since then, I've been on a continuous learning adventure.</p>
                         </div>
                      </div>
-                     <div className="col-md-12">
-                        <div className="about_img">
-                           <figure><img src={Agency} alt="#"/></figure>
-                        </div>
+                     <div className="col-md-12">                        
+                           <img src={Agency} className="about_img"alt="#"/>
                      </div>
                   </div>
                </div>
-               <div className="col-md-7">
-                  <div className="about_right">
-                     <figure><img src="" alt="#"/></figure>
-                  </div>
+               <div className="col-md-7">                  
+                     <img src={Right} className="about_right" alt="#"/>
                </div>
             </div>
          </div>

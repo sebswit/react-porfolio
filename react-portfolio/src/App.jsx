@@ -14,7 +14,7 @@ function App() {
     <Router>
         <NavTabs />
             <Routes>            
-                <Route path="home/" element={<Home />} />
+                <Route path="home" element={<Home />} />
                 <Route path="about" element={<About />} />
                 <Route path="projectGallery" element={<ProjectGallery />} />                           
                 <Route path="contact" element={<Contact />} />
